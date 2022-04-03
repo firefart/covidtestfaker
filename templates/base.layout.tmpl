@@ -1,0 +1,51 @@
+{{define "base"}}
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Fake Covid Test Generator</title>
+
+    <meta name="description" content="Fake Covid Test Generator">
+    <meta property="og:title" content="Fake Covid Test Generator">
+    <meta property="og:description" content="Fake Covid Test Generator">
+    <meta property="og:locale" content="de_AT">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://fakecovidtest.me/static/covid.svg">
+    <meta property="og:image:type" content="image/svg+xml">
+    <meta property="og:url" content="https://fakecovidtest.me/">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@firefart">
+    <meta name="twitter:title" content="Fake Covid Test Generator">
+    <meta name="twitter:description" content="Fake Covid Test Generator">
+    <meta name="twitter:image" content="https://fakecovidtest.me/static/covid.png">
+
+    <meta name="theme-color" content="#85a7af">
+
+    <link rel="canonical" href="https://fakecovidtest.me/">
+    <link rel="stylesheet" href="/static/layout.css">
+    <link rel="apple-touch-icon" href="/static/covid.png">
+    <link rel="icon" href="data:,">
+  </head>
+
+  <body>
+    <wrapper>
+      <header>
+        <h1>Covid Fake Test Generator</h1>
+      </header>
+      <content>
+        <div class="container">
+        {{template "body" .}}
+        </div>
+      </content>
+      <footer>
+      Hinweis: Diese Grafiken sind nicht zum echten Gebrauch gedacht. Bitte verwenden Sie diese nicht, um Testergebnisse zu f&auml;lschen da Sie sich damit strafbar machen
+      <br />
+      Made by <a href="https://firefart.at/" target="_blank">firefart</a>
+      </footer>
+    </wrapper>
+  </body>
+</html>
+{{end}}

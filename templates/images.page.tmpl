@@ -1,0 +1,14 @@
+{{template "base" .}}
+
+{{define "body"}}
+<h2>Ihre Tests</h2>
+<h3>Hinweis: Diese Grafiken sind nicht zum echten Gebrauch gedacht. Bitte verwenden Sie diese nicht, um Testergebnisse zu f&auml;lschen da Sie sich damit strafbar machen</h3>
+<div class="center">
+  <div class="covid-img">
+    <img src="data:image/png;base64,{{.NormalImage | base64}}" />
+  </div>
+  <div class="covid-img">
+    <img src="data:image/png;base64,{{.DevaluedImage | base64}}" />
+  </div>
+</div>
+{{end}}

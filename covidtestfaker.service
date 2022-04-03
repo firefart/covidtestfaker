@@ -1,0 +1,15 @@
+[Unit]
+Description=Covidtest Faker
+Wants=network-online.target
+After=network.target network-online.target
+
+[Service]
+User=covidtestfaker
+Group=nogroup
+SyslogIdentifier=covidtestfaker
+ExecStart=/home/covidtestfaker/covidtestfaker
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,16 @@
+{{template "base" .}}
+
+{{define "body"}}
+<div>
+  Bitte geben sie Ihren Test Code an, den sie von der Selftest Applikation bekommen:
+</div>
+<br />
+<form action="/generateImages" method="GET">
+  <div>
+    <input type="text" id="code" name="code" maxlength="{{ .MaxCodeLen }}" placeholder="code" required autofocus />
+  </div>
+  <div>
+    <input type="submit" value="Generieren" />
+  </div>
+</form>
+{{end}}

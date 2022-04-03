@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  background-color: #F1F3F6;
+  color: #34495E;
+  margin: auto;
+}
+
+wrapper {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+content {
+  overflow: auto;
+}
+
+.container {
+  flex: 1;
+  width: 40%;
+  margin: auto;
+  /* width of one image */
+  min-width: 244px;
+}
+
+.center {
+  text-align: center;
+}
+
+.covid-img {
+  display: inline-block;
+}
+
+input {
+  /* fix safari not applying our styles */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input:not([type="submit"]) {
+  font-size: 18px;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+input[type="text"] {
+  padding: 10px;
+}
+
+input[type="submit"] {
+  background-color: #62CB31;
+  border-radius: 3px;
+  color: #FFFFFF;
+  padding: 18px 27px;
+  border: none;
+  display: inline-block;
+  margin-top: 18px;
+  font-weight: 700;
+}
+
+input[type="submit"]:hover {
+  background-color: #4EB722;
+  color: #FFFFFF;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 36px;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  border-top: 1px solid #E4E5E7;
+  padding-top: 17px;
+  padding-bottom: 15px;
+  background: #F7F9FA;
+  color: #6A6C6F;
+  text-align: center;
+}
