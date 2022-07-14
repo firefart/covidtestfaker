@@ -8,10 +8,10 @@ require (
 	github.com/gorilla/handlers v1.5.1
 	github.com/gorilla/mux v1.8.0
 	github.com/sirupsen/logrus v1.8.1
-	golang.org/x/image v0.0.0-20220321031419-a8550c1d254a
+	golang.org/x/image v0.0.0-20220617043117-41969df76e82
 )
 
 require (
-	github.com/felixge/httpsnoop v1.0.2 // indirect
-	golang.org/x/sys v0.0.0-20220403020550-483a9cbc67c0 // indirect
+	github.com/felixge/httpsnoop v1.0.3 // indirect
+	golang.org/x/sys v0.0.0-20220712014510-0a85c31ab51e // indirect
 )
