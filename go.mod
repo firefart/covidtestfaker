@@ -8,7 +8,7 @@ require (
 	github.com/gorilla/handlers v1.5.1
 	github.com/gorilla/mux v1.8.0
 	github.com/sirupsen/logrus v1.9.0
-	golang.org/x/image v0.3.0
+	golang.org/x/image v0.4.0
 )
 
 require (
