@@ -1,6 +1,6 @@
 module github.com/firefart/covidtestfaker
 
-go 1.23
+go 1.24
 
 require (
 	github.com/fogleman/gg v1.3.0
